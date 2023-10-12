@@ -1,10 +1,47 @@
-/* Typography, also known as fonts */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    /* Bigger text because I prefer it */
-    font-size: larger;    
+
+html, body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: white;
 }
-/* Larger resolutions */
-@media screen and (min-width: 480px) {
-   
+.flex2{
+    background-color: grey;
 }
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.parallax.home {
+    background-image: url('images/panda1.jpg');
+}
+
+.parallax.face {
+    background-image: url('images/panda2.jpg');
+}
+
+.parallax.leash {
+    background-image: url('images/panda3.jpg');
+}
+
+
+.info-section.text-center {
+    text-align: center;
+}
+
+
+.down-arrow {
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+}
+
+
