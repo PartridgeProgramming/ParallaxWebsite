@@ -4,10 +4,21 @@ html, body, h1, h3, p {
     font-size: 50px;
     color: white;
 }
-.flex2{
+
+#main-menu {
+    text-align: left;
     background-color: grey;
+    padding: 1px;  
+   
 }
 
+#main-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+<<<<<<< HEAD
 #burger-menu {
     width: 10%;
     display: block;
@@ -17,6 +28,25 @@ html, body, h1, h3, p {
     display: none;
 }
 
+=======
+
+
+#main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+    
+
+}
+.flex2{
+    background-color: grey;
+    
+}
+.info-section{
+    background-color: grey;
+}
+>>>>>>> 6fc596f2555e19e4e81c6112b054682997799e5b
 .parallax {
     height: 100vh;
     background-attachment: fixed;
