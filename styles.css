@@ -1,4 +1,3 @@
-
 html, body, h1, h3, p {
     margin: 0;
     padding: 0;
@@ -7,6 +6,15 @@ html, body, h1, h3, p {
 }
 .flex2{
     background-color: grey;
+}
+
+#burger-menu {
+    width: 10%;
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
 .parallax {
@@ -44,4 +52,8 @@ html, body, h1, h3, p {
     font-size: 55px;
 }
 
-
+@media (min-width: 900px) {
+    #burger-menu {
+        display: none;
+    }
+}
